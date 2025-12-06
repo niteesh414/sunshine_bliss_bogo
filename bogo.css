@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 20px;
+    color: #444;
+  }
+  
+  .bogo-component {
+    max-width: 380px;
+    margin: auto;
+  }
+  
+  .bogo-header {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6b82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .bogo-header::before,
+  .bogo-header::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e0e0e0;
+  }
+  
+  .option {
+    border: 1px solid #e8e8e8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .option label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .unit-one {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .option input[type="radio"] {
+    accent-color: #ff6b82;
+  }
+  
+  .option.selected {
+    border: 2px solid #ff6b82;
+    background: #fff5f9;
+  }
+  
+  .discount-tag {
+    background: #ff8fb1;
+    color: #fff;
+    padding: 2px;
+    font-size: 13px;
+  }
+  
+  .unit-price {
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+  }
+  
+  .old-price {
+    font-size: 12px;
+    color: #bbb;
+    text-decoration: line-through;
+    display: block;
+    margin-top: 2px;
+  }
+  
+  .most-popular {
+    background: #ff6b82;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 11px;
+    border-radius: 0 0 6px 6px;
+    position: absolute;
+    top: -8px;
+    right: 2px;
+    font-weight: 600;
+    z-index: 2;
+  }
+  
+  .sizes-colours {
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .sizes-header {
+    display: flex;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .pair label {
+    width: 25px;
+    font-size: 13px;
+    color: #555;
+  }
+  
+  .pair select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 25%;
+    margin-right: 10px;
+  }
+  
+  .pair select:last-child {
+    margin-right: 0;
+  }
+  
+  .free-delivery {
+    color: #ff6b82;
+    font-size: 14px;
+  }
+  
+  .total {
+    text-align: right;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 15px;
+    background: #ff6b82;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .subText {
+    font-size: 13px;
+    color: #777;
+    margin-top: 3px;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pumper-footer {
+    text-align: right;
+    font-size: 13px;
+    color: #b5b5b5;
+    margin-top: 8px;
+    font-style: italic;
+  }
+  

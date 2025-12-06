@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunshine Bliss</title>
+  <link rel="stylesheet" href="bogo.css">
+</head>
+
+<body>
+  <div class="bogo-component">
+    <div class="bogo-header">
+      <span>YAY! It's BOGO</span>
+    </div>
+
+    <!-- 1 UNIT -->
+    <div class="option" onclick="selectOption(1)" id="box1">
+      <label>
+        <div class="left-side">
+          <input type="radio" name="units" id="opt1" />
+          <div class="unit-one">
+            <div>
+              <span style="font-weight: bold">1 Unit</span>
+              <span class="discount-tag">10% Off</span>
+            </div>
+            <div class="subText">Standard Price</div>
+          </div>
+        </div>
+
+        <div style="text-align:right">
+          <span class="unit-price">$10.00 USD</span>
+          <span class="old-price">$24.00 USD</span>
+        </div>
+      </label>
+
+      <div class="sizes-colours" id="Unit1Options" style="display:none">
+        <div class="sizes-header">
+          <span style="margin-left:10%">Size</span>
+          <span style="margin-left:20%">Colour</span>
+        </div>
+
+        <div class="pair">
+          <label>#1</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+
+        <div class="pair">
+          <label>#2</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 UNITS -->
+    <div class="option" onclick="selectOption(2)" id="box2">
+      <div class="most-popular">MOST POPULAR</div>
+      <label>
+        <div class="left-side">
+          <input type="radio" name="units" id="opt2" />
+          <span style="font-weight:bold">2 Unit</span>
+          <span class="discount-tag">20% Off</span>
+        </div>
+
+        <div style="text-align:right">
+          <span class="unit-price">$18.00 USD</span>
+          <span class="old-price">$24.00 USD</span>
+        </div>
+      </label>
+
+      <div class="sizes-colours" id="Unit2Options" style="display:none">
+        <div class="sizes-header">
+          <span style="margin-left:10%">Size</span>
+          <span style="margin-left:20%">Colour</span>
+        </div>
+
+        <div class="pair">
+          <label>#1</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+
+        <div class="pair">
+          <label>#2</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 UNITS -->
+    <div class="option" onclick="selectOption(3)" id="box3">
+      <label>
+        <div class="left-side">
+          <input type="radio" name="units" id="opt3" />
+          <span style="font-weight:bold">3 Unit</span>
+          <span class="discount-tag" style="position:relative; top:-8px">30% Off</span>
+        </div>
+
+        <div style="text-align:right">
+          <span class="unit-price">$24.00 USD</span>
+          <span class="old-price">$24.00 USD</span>
+        </div>
+      </label>
+
+      <div class="sizes-colours" id="Unit3Options" style="display:none">
+        <div class="sizes-header">
+          <span style="margin-left:10%">Size</span>
+          <span style="margin-left:20%">Colour</span>
+        </div>
+
+        <div class="pair">
+          <label>#1</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+
+        <div class="pair">
+          <label>#2</label>
+          <select><option>S</option><option>M</option><option>L</option></select>
+          <select><option>Black</option><option>White</option><option>Colour</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-row">
+      <div class="free-delivery">Free Delivery</div>
+      <div class="total">Total: <span id="totalPrice">$18.00 USD</span></div>
+    </div>
+
+    <button class="btn">+ Add to Cart</button>
+    <div class="pumper-footer">@ Powered by Pumper</div>
+  </div>
+
+  <script src="bogo.js"></script>
+</body>
+</html>
